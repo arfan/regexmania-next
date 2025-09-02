@@ -83,7 +83,7 @@ export default function Home() {
             <label className="font-mono mb-1">Input</label>
             <textarea
               className="font-mono border rounded px-2 py-1 resize bg-gray-50 dark:bg-[#23232a] w-full h-full flex-1 min-h-0"
-              style={{minHeight: '600px', height: '100%'}}
+              style={{minHeight: '400px', height: '100%'}}
               value={input}
               onChange={e => setInput(e.target.value)}
               placeholder="Enter input text here"
@@ -93,7 +93,7 @@ export default function Home() {
             <label className="font-mono mb-1">Output</label>
             <textarea
               className="font-mono border rounded px-2 py-1 resize bg-gray-50 dark:bg-[#23232a] w-full h-full flex-1 min-h-0"
-              style={{minHeight: '600px', height: '100%'}}
+              style={{minHeight: '400px', height: '100%'}}
               value={output}
               readOnly
             />
