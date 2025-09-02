@@ -1,0 +1,5 @@
+name = "regexmania"
+compatibility_date = "2025-09-02"
+
+[pages]
+directory = "./out"
